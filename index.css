@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: white; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #111827;
+    align-items: center; 
+}
+
+#home-score, #away-score {
+    width: 140px;
+    background: #080001;
+    margin: 20px auto;
+    color: red;
+    font-size: 90px;
+    border: 1px solid #9AABD8;
+    border-radius: 8px;
+    
+}
+
+#button2-home, #button2-away {
+    margin: 10px 5px;
+}
+
+#button1-home, #button2-home, #button3-home, #button1-away,#button2-away, #button3-away {
+    background: none; 
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    color: #9AABD8;
+    border: solid 2px #9AABD8;
+    border-radius: 6px;
+}
+
+h2, h3 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+    padding: 5px;
+}
+
+h3 {
+    font-family: Verdana, sans-serif;
+}
+
+.buttons {
+    padding: 5px 0; 
+}
